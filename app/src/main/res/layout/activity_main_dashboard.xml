@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/camping"
+    tools:context=".MainActivityDashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:text="Lets Go Camping!"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="95dp"
+            android:text="Login SuccessFully, = "
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+
+        <Button
+            android:id="@+id/buttonThings"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="#CA9C8F"
+            android:gravity="center"
+            android:text="Things to do before, during and after camping"
+            android:textSize="12dp" />
+
+
+        <Button
+            android:id="@+id/buttonKnotTying"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonThings"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="57dp"
+            android:background="#CA9C8F"
+            android:gravity="center"
+            android:text="How to do Knot Tying"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/buttonFirstAid"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonKnotTying"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="57dp"
+            android:layout_marginBottom="80dp"
+            android:background="#CA9C8F"
+            android:gravity="center"
+            android:text="First Aid"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="320dp"
+            android:background="#05BFE2"
+            android:text="LOGOUT"
+            android:textColor="#A25858" />
+
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
